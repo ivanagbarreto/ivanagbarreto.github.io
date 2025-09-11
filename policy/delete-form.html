@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Solicitud de Eliminación de Cuenta - Mix&Match</title>
+  <style>
+    body{font-family: Arial, sans-serif;background:#f7f7fb;color:#222;margin:0;padding:0}
+    .container{max-width:600px;margin:40px auto;background:#fff;padding:28px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+    h1{font-size:22px;color:#111;margin-bottom:20px}
+    label{display:block;margin:12px 0 6px}
+    input,textarea{width:100%;padding:10px;border:1px solid #ccc;border-radius:6px;font-size:15px}
+    textarea{min-height:120px;resize:vertical}
+    button{margin-top:18px;background:#0a66c2;color:#fff;padding:12px 20px;border:none;border-radius:6px;cursor:pointer;font-size:16px}
+    button:hover{background:#094b8a}
+    .small{margin-top:20px;font-size:13px;color:#555}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Solicitud de Eliminación de Cuenta</h1>
+    <p>Si deseas eliminar tu cuenta de <strong>Mix&Match</strong> y todos los datos asociados, completa el siguiente formulario. Te responderemos por correo electrónico para confirmar la eliminación.</p>
+    
+    <form action="mailto:ivanagbarreto@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Nombre completo</label>
+      <input type="text" id="name" name="Nombre" required />
+      
+      <label for="email">Correo electrónico asociado a la cuenta</label>
+      <input type="email" id="email" name="Correo" required />
+      
+      <label for="reason">Motivo de la solicitud (opcional)</label>
+      <textarea id="reason" name="Motivo"></textarea>
+      
+      <button type="submit">Enviar solicitud</button>
+    </form>
+    
+    <p class="small">Nota: Este formulario abrirá tu aplicación de correo predeterminada para enviar la solicitud. También puedes escribirnos directamente a <a href="mailto:ivanagbarreto@gmail.com">ivanagbarreto@gmail.com</a>.</p>
+  </div>
+</body>
+</html>
