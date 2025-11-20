@@ -2,31 +2,51 @@
   {
     "id": 1,
     "category": "upload",
-    "title": "Usá buena iluminación natural",
-    "description": "Tomá la foto en un área con luz natural abundante. Evitá sombras y luz artificial amarillenta.",
-    "correctImage": "https://ivanagbarreto.github.io/database/image/contraste-correcto.jpg",
-    "incorrectImage": "https://ivanagbarreto.github.io/database/image/contraste-ia-correcto.jpg",
-    "correctCut": "https://ivanagbarreto.github.io/database/image/arrugas-incorrecto.jpg",
-    "incorrectCut": "https://ivanagbarreto.github.io/database/image/arrugas-ia-incorrecto.jpg"
+    "title": "Usá un fondo liso",
+    "description": "Colocá la prenda sobre un fondo sólido sin estampa para que la prenda resalte mejor.",
+    "correctImage": "https://ivanagbarreto.github.io/database/image/original-correcto.jpg",
+    "incorrectImage": "https://ivanagbarreto.github.io/database/image/liso-incorrecto.jpg",
+    "correctCut": "https://ivanagbarreto.github.io/database/image/ia-correcto.jpg",
+    "incorrectCut": "https://ivanagbarreto.github.io/database/image/liso-ia-incorrecto.jpg"
   },
   {
     "id": 2,
     "category": "upload",
-    "title": "Usá un fondo neutro",
-    "description": "Colocá la prenda sobre un fondo blanco o claro para que resalte mejor.",
-    "correctImage": "https://images.unsplash.com/photo-1581338834647-b0fb40704e21?w=400&h=400&fit=crop",
-    "incorrectImage": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=400&h=400&fit=crop",
-    "correctCut": "https://via.placeholder.com/400x400.png?text=Recorte+Correcto",
-    "incorrectCut": "https://via.placeholder.com/400x400.png?text=Recorte+Incorrecto"
+    "title": "Usá un fondo contrastante",
+    "description": "Si la prenda es blanca que el fondo sea oscuro, si la prenda es oscura que el fondo sea claro",
+    "correctImage": "https://ivanagbarreto.github.io/database/image/original-correcto.jpg",
+    "incorrectImage": "https://ivanagbarreto.github.io/database/image/blanco.jpg",
+    "correctCut": "https://ivanagbarreto.github.io/database/image/ia-correcto.jpg",
+    "incorrectCut": "https://ivanagbarreto.github.io/database/image/blanco-ia.jpg"
   },
   {
     "id": 3,
     "category": "upload",
-    "title": "Centrala bien",
+    "title": "Estirá bien la prenda",
+    "description": "Acomodá la prenda para que no tenga arrugas, pliegues o dobleces.",
+    "correctImage": "https://ivanagbarreto.github.io/database/image/original-correcto.jpg",
+    "incorrectImage": "https://ivanagbarreto.github.io/database/image/arrugas-incorrecto.jpg",
+    "correctCut": "https://ivanagbarreto.github.io/database/image/ia-correcto.jpg",
+    "incorrectCut": "https://ivanagbarreto.github.io/database/image/arrugas-ia-incorrecto.jpg"
+  },
+  {
+    "id": 4,
+    "category": "upload",
+    "title": "Centrá bien la prenda",
     "description": "Asegurate que la prenda esté completamente visible y centrada en la foto.",
-    "correctImage": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&h=400&fit=crop",
-    "incorrectImage": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=400&h=400&fit=crop",
-    "correctCut": "https://via.placeholder.com/400x400.png?text=Recorte+Correcto",
-    "incorrectCut": "https://via.placeholder.com/400x400.png?text=Recorte+Incorrecto"
+    "correctImage": "https://ivanagbarreto.github.io/database/image/original-correcto.jpg",
+    "incorrectImage": "https://ivanagbarreto.github.io/database/image/frente-incorrecto.jpg",
+    "correctCut": "https://ivanagbarreto.github.io/database/image/ia-correcto.jpg",
+    "incorrectCut": "https://ivanagbarreto.github.io/database/image/frente-ia-incorrecto.jpg"
+  },
+  {
+    "id": 5,
+    "category": "upload",
+    "title": "Evitá sombras",
+    "description": "Asegurate que no te interpongas entre la luz y la prenda.",
+    "correctImage": "https://ivanagbarreto.github.io/database/image/original-correcto.jpg",
+    "incorrectImage": "https://ivanagbarreto.github.io/database/image/sombra-incorrecto.jpg",
+    "correctCut": "https://ivanagbarreto.github.io/database/image/ia-correcto.jpg",
+    "incorrectCut": "https://ivanagbarreto.github.io/database/image/sombra-ia-incorrecto.jpg"
   }
 ]
