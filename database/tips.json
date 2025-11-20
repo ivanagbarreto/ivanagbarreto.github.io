@@ -1,15 +1,17 @@
 [
   {
     "id": 1,
+    "category": "upload",
     "title": "Usá buena iluminación natural",
     "description": "Tomá la foto en un área con luz natural abundante. Evitá sombras y luz artificial amarillenta.",
-    "correctImage": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=400&h=400&fit=crop",
-    "incorrectImage": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=400&h=400&fit=crop",
-    "correctCut": "https://via.placeholder.com/400x400.png?text=Recorte+Correcto",
-    "incorrectCut": "https://via.placeholder.com/400x400.png?text=Recorte+Incorrecto"
+    "correctImage": "https://ivanagbarreto.github.io/database/image/contraste-correcto.jpg",
+    "incorrectImage": "https://ivanagbarreto.github.io/database/image/contraste-ia-correcto.jpg",
+    "correctCut": "https://ivanagbarreto.github.io/database/image/arrugas-incorrecto.jpg",
+    "incorrectCut": "https://ivanagbarreto.github.io/database/image/arrugas-ia-incorrecto.jpg"
   },
   {
     "id": 2,
+    "category": "upload",
     "title": "Usá un fondo neutro",
     "description": "Colocá la prenda sobre un fondo blanco o claro para que resalte mejor.",
     "correctImage": "https://images.unsplash.com/photo-1581338834647-b0fb40704e21?w=400&h=400&fit=crop",
@@ -19,6 +21,7 @@
   },
   {
     "id": 3,
+    "category": "upload",
     "title": "Centrala bien",
     "description": "Asegurate que la prenda esté completamente visible y centrada en la foto.",
     "correctImage": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&h=400&fit=crop",
